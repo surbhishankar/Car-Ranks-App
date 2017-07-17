@@ -9,9 +9,11 @@
 	color: #EEE;
 	padding-bottom: 2em;
 }
-#carName {
-	width: 180px;
+input {
+	width: 25%;
 	height: 15px;
+	margin-bottom: 2em;
+	margin-top: 1em;
 }
 .cars {
 	margin: 0 0 5em 0em;
