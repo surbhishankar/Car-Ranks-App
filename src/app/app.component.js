@@ -13,7 +13,7 @@ var AppComponent = (function () {
     function AppComponent() {
         this.title = 'Which is the best car???';
         this.object = {
-            link: "http://www.cs.odu.edu/~sshankar/image.jpg"
+            link: "http://www.cs.odu.edu/~sshankar/image.png"
         };
     }
     return AppComponent;

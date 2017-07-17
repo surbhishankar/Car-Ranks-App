@@ -2,7 +2,12 @@ body {
 	color: #888;
 	font-family: Cambria, Georgia;
 	text-align: center;
-	height: 100%;
+	min-height: 100%;
+	width: 100%;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 [class*='col-'] {
 	float: left;

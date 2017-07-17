@@ -5,12 +5,13 @@
 .cars {
 	margin: 0 0 5em 0em;
 	list-style-type: none;
-	width: 40%;
-	margin-left: 30%;
+	width: 50%;
+	margin-left: 20%;
+	margin-bottom: 10px;
 }
 .cars li {
 	cursor: pointer;
-	background-color: #f0f9e8;
+	background-color: #dbd0d0;
 	margin: .8em;
 	padding: .3em 0;
 	height: 1.6em;
@@ -36,7 +37,7 @@
 	color: white;
 	float: left;
 	padding: 0.8em 0.7em 0 0.7em;
-	background-color: #006d2c;
+	background-color: #282828;
 	line-height: 1em;
 	position: relative;
 	top: -4px;
@@ -44,17 +45,16 @@
 	margin-right: 2em;
 	border-radius: 20px 0 0 20px;
 }
-.button {
+button {
 	font-family: Arial;
-	background-color: #eee;
-	border: none;
+	background-color: #f0f9e8;
 	padding: 5px, 10px;
-	border-radius: 20px;
+	border-radius: 4px;
 	cursor: pointer;
-	cursor: hand;
+	color: #31a354;
 }
-.button:hover {
-	background-color: #ffffb2;
+button:hover {
+	background-color: #c2e699;
 }
 button.delete {
 	float: right;

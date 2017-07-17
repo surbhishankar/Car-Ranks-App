@@ -9,6 +9,7 @@ div.intro {
 	border: 3px solid green;
 	padding-top: 10px;
 	text-align: center;
+	background-image: none;
 }
 h1 {
 	font-size: 2.5em;
@@ -25,13 +26,13 @@ h3 {
 	font-size: 1.2em;
 	margin: 10px;
 	padding-top: 0;
-	color: #18301e;
+	color: #999;
 }
 h4 {
 	font-size: .8em;
 	margin: 10px;
 	padding-top: 0;
-	color: #18301e;
+	color: #999;
 }
 p.center {
 	font-size: .8em;
@@ -39,20 +40,20 @@ p.center {
 	padding: 10px;
 	width: 90%;
 	text-align: center;
-	background-color: #edf8e9;
+	background-color: #EEE;
 	border-radius: 4px;
 	color: #999;
 }
 p {
-	color: #18301e;
+	color: white;
 }
 p.work {
 	font-size: 1.2em;
-	color: #31a354;
+	color: #999;
 	margin: auto;
 	padding: 10px;
 	text-align: center;
-	color: red;
+	color: black;
 }
 a.projects {
 	font-size: .8em;

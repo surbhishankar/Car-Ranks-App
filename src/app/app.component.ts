@@ -19,7 +19,7 @@ export class AppComponent {
   title = 'Which is the best car???';
 
   object = {
-    link: "http://www.cs.odu.edu/~sshankar/image.jpg"
+    link: "http://www.cs.odu.edu/~sshankar/image.png"
   }
 
   constructor(){
