@@ -35,7 +35,7 @@ h3 {
 .col-1-4 {
 	display: inline-block;
 	width: 25%;
-	padding-left: 50px;
+	height: 100%;
 	margin-bottom: 25px;
 	margin: 30px;
 	position: relative;

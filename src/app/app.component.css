@@ -1,6 +1,8 @@
 .image {
-	width:100%;
-	height: 100%;
+	background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
 	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -18,7 +20,7 @@ h2 {
 	padding-top: 0;
 }
 nav {
-	background-color: #edf8e9;
+	background-color: transparent;
 	width: 50%;
 	margin-left: 25%;
 }
@@ -28,15 +30,15 @@ nav a {
 	margin-top: 10px;
 	margin: 0;
 	display: inline-block;
-	background-color: #edf8e9;
+	background-color: transparent;
 	border-radius: 4px;
 }
 nav a:visited, a:link {
-	color: #31a354;
+	color: #EEE;
 }
 nav a:hover {
 	color: #006837;
-	background-color: #c2e699;
+	background-color: #999;
 }
 nav a.active {
 	color: #006837;

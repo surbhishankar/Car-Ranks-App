@@ -6,6 +6,7 @@ div.intro {
 	margin: auto;
 	margin-top: 15px;
     width: 90%;
+    height: 1600px;
 	border: 3px solid green;
 	padding-top: 10px;
 	text-align: center;
@@ -40,7 +41,6 @@ p.center {
 	padding: 10px;
 	width: 90%;
 	text-align: center;
-	background-color: #EEE;
 	border-radius: 4px;
 	color: #999;
 }
@@ -53,7 +53,6 @@ p.work {
 	margin: auto;
 	padding: 10px;
 	text-align: center;
-	color: black;
 }
 a.projects {
 	font-size: .8em;
