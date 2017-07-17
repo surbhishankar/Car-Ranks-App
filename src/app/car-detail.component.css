@@ -23,8 +23,9 @@ textarea.Content {
 	word-wrap: break-word;
     word-break: break-word;
 }
-.input {
+input {
 	height: 2em;
+	width: 25%;
 	font-size: 1em;
 	padding-left: .4em; 
 }

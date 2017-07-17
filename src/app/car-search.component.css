@@ -2,24 +2,24 @@
 	border-bottom: 1px solid gray;
 	border-left: 1px solid gray;
 	border-right: 1px solid gray;
-	width: 195px;
-	height: 16px;
+	width: 25%;
+	height: 25px;
 	padding: 5px;
 	background-color: white;
 	cursor: pointer;
-	margin-left: 36.5%;
+	margin-left: 37%;
 }
 .search-result:hover {
 	color: #eee;
-	background-color: #006d2c;
-	margin-left: 36.5%;
+	background-color: green;
+	margin-left: 37%;
 }
 #search-box {
-	width: 200px;
-	height: 20px;
-	margin-bottom: 30px;
+	width: 25%;
+	height: 25px;
 	border: 1px solid #006d2c;
 }
 h4 {
+	font-size: x-large;
 	color: white;
 }
