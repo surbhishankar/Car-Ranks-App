@@ -17,9 +17,10 @@ git clone https://github.com/surbhishankar/Car-Ranks-App.git my-proj
 cd my-project
 ```
 
-Install the npm packages described in the `package.json` and verify that it works:
+Install the npm packages in the my-project folder and launch the Application:
 
 ```shell
+cd my-project
 npm install
 npm start
 ```

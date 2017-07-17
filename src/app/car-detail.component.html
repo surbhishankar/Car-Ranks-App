@@ -1,10 +1,10 @@
 <div *ngIf="car">
-	<h2>{{car.name}} details!!</h2>
+	<h2> More Details on {{car.name}} !!</h2>
 	<div>
-		<label>id: </label>{{car.id}}
+		<label>Id: </label>{{car.id}}
 	</div>
-	<div>
-		<label>name: </label>
+	<div class="inputfield">
+		<label> Car name: </label>
 		<input [(ngModel)]="car.name" placeholder="name"/>
 	</div>
 	<div>
