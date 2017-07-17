@@ -22,6 +22,7 @@
 }
 .cars li {
 	cursor: pointer;
+	text-align: center;
 	background-color: #a39999;
 	margin: .8em;
 	padding: .3em 0;
