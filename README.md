@@ -1,14 +1,9 @@
 # Car-Ranks Application using Angular 2.0
 
-This repository holds the TypeScript source code of the [angular.io quickstart](https://angular.io/docs/ts/latest/quickstart.html),
-the foundation for most of the documentation samples and potentially a good starting point for your application.
-
-## Prerequisites
-
 Node.js and npm are essential to Angular development. 
     
 <a href="https://docs.npmjs.com/getting-started/installing-node" target="_blank" title="Installing Node.js and updating npm">
-click here to get it </a>, if it's not already installed on your machine.
+Click here to get it </a>, if it's not already installed on your machine.
  
 **Verify that you are running at least node `v4.x.x` and npm `3.x.x`**
 by running `node -v` and `npm -v` in a terminal/console window.
@@ -53,4 +48,5 @@ for /f %i in (non-essential-files.txt) do del %i /F /S /Q
 rd .git /s /q
 rd e2e /s /q
 ```
-
+This repository holds the TypeScript source code of the [angular.io quickstart](https://angular.io/docs/ts/latest/quickstart.html),
+the foundation for most of the documentation samples and potentially a good starting point for your application.
