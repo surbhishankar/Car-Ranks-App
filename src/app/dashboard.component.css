@@ -29,6 +29,9 @@ h3 {
 	text-align: center;
 	margin-bottom: 0;
 }
+h2 {
+	padding: 2em;
+}
 .grid {
 	margin: 0;
 }
