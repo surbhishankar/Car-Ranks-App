@@ -1,0 +1,100 @@
+div.intro {
+	margin: auto;
+	padding: 10px;
+}
+.container {
+	margin: auto;
+	margin-top: 15px;
+    width: 90%;
+	border: 3px solid green;
+	padding-top: 10px;
+	text-align: center;
+}
+h1 {
+	font-size: 2.5em;
+	color: #999;
+	margin-bottom: 0;
+	text-align: center;
+}
+h2 {
+	font-size: 1.8em;
+	color: #999;
+	text-align: center;
+}
+h3 {
+	font-size: 1.2em;
+	margin: 10px;
+	padding-top: 0;
+	color: #18301e;
+}
+h4 {
+	font-size: .8em;
+	margin: 10px;
+	padding-top: 0;
+	color: #18301e;
+}
+p.center {
+	font-size: .8em;
+	margin: auto;
+	padding: 10px;
+	width: 90%;
+	text-align: center;
+	background-color: #edf8e9;
+	border-radius: 4px;
+	color: #999;
+}
+p {
+	color: #18301e;
+}
+p.work {
+	font-size: 1.2em;
+	color: #31a354;
+	margin: auto;
+	padding: 10px;
+	text-align: center;
+	color: red;
+}
+a.projects {
+	font-size: .8em;
+	padding: 5px 10px;
+	text-decoration: none;
+	margin: 20px;
+	border-radius: 4px;
+	background-color: #edf8e9;
+	color: #31a354;
+}
+a.otherprojects {
+	font-size: 1em;
+	padding: 5px 10px;
+	text-decoration: none;
+	margin: 20px;
+	border-radius: 4px;
+	color: #31a354;
+}
+a {
+	font-size: 1.2em;
+	padding: 5px 10px;
+	text-decoration: none;
+	margin: 20px;
+	border-radius: 4px;
+	background-color: #edf8e9;
+	color: #31a354;
+}
+nav a {
+	padding: 5px 10px;
+	text-decoration: none;
+	margin-top: 10px;
+	display: inline-block;
+	background-color: #edf8e9;
+	border-radius: 20px;
+}
+nav a:visited, a:link {
+	color: #31a354;
+}
+a:hover {
+	color: #006837;
+	background-color: #c2e699;
+}
+nav a.active {
+	color: #006837;
+}

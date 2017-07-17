@@ -1,0 +1,16 @@
+<div *ngIf="car">
+	<h2>{{car.name}} details!!</h2>
+	<div>
+		<label>id: </label>{{car.id}}
+	</div>
+	<div>
+		<label>name: </label>
+		<input [(ngModel)]="car.name" placeholder="name"/>
+	</div>
+	<div>
+		<textarea [(ngModel)]="car.content" placeholder="Car Description" class="Content" > </textarea>
+	</div>
+	<button (click)="goBack()">Back</button>
+	<button (click)="save()">Save</button>
+	
+</div>

@@ -1,0 +1,22 @@
+<h2>Best Cars</h2>
+<div>
+	<label>Car Name: </label> <input #carName />
+	<button (click)="add(carName.value); carName.value=''">
+		Add
+	</button>
+</div>
+<ul class="cars">
+	<li *ngFor="let car of cars" 
+		[class.selected]="car === selectedCar" 
+		(click)="onSelect(car)">
+		<span class="badge">{{car.id}}</span> 
+		<span class="carname"> {{car.name}} </span>
+		<button class="delete" (click)="delete(car); $event.stopPropagation()">x</button>
+	</li>
+</ul>
+<div *ngIf="selectedCar">
+	<h2>
+		{{selectedCar.name | uppercase}} is the car I want!
+	</h2>
+	<button (click)="gotoDetail()">ViewDetail</button>
+</div>
