@@ -9,7 +9,7 @@
 	<li *ngFor="let car of cars" 
 		[class.selected]="car === selectedCar" 
 		(click)="onSelect(car)">
-		<span class="badge">{{car.id}}</span> 
+		<span class="badge">Rank {{car.id}}</span> 
 		<span class="carname"> {{car.name}} </span>
 		<button class="delete" (click)="delete(car); $event.stopPropagation()">x</button>
 	</li>
