@@ -1,6 +1,6 @@
 # Car-Ranks Application using Angular 2.0
 
-Node.js and npm are essential to Angular development. 
+Node.js and npm are essential to launch Angular Application. 
     
 <a href="https://docs.npmjs.com/getting-started/installing-node" target="_blank" title="Installing Node.js and updating npm">
 Click here to get it </a>, if it's not already installed on your machine.
@@ -11,10 +11,10 @@ Older versions produce errors.
 
 ## Create a new project
 
-Clone this repo into new project folder (e.g., `my-proj`).
+Clone this repo into new project folder (e.g., `my-project`).
 ```shell
 git clone https://github.com/surbhishankar/Car-Ranks-App.git my-proj
-cd my-proj
+cd my-project
 ```
 
 Install the npm packages described in the `package.json` and verify that it works:
@@ -23,9 +23,6 @@ Install the npm packages described in the `package.json` and verify that it work
 npm install
 npm start
 ```
-
-
-Shut it down manually with `Ctrl-C`.
 
 The Application will open on a localhost.
 
