@@ -20,7 +20,6 @@ cd my-project
 Install the npm packages in the my-project folder and launch the Application:
 
 ```shell
-cd my-project
 npm install
 npm start
 ```
