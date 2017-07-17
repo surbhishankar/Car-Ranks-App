@@ -5,7 +5,7 @@ import { Car } from './car';
 import { CarService } from './car.service';
 
 @Component({
-  selector: 'my-carss',
+  selector: 'my-cars',
   templateUrl: './cars.component.html',
   styleUrls: ['./cars.component.css'],
   providers: [CarService]

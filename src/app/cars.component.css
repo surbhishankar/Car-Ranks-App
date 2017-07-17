@@ -1,9 +1,16 @@
 .selected {
-	background-color: #74c476 !important;
+	background-color: #888 !important;
 	color: white;
 }
 .carname {
+	color: green;
+}
+.car {
 	color: #EEE;
+}
+#carName {
+	width: 180px;
+	height: 15px;
 }
 .cars {
 	margin: 0 0 5em 0em;
@@ -21,13 +28,13 @@
 	border-radius: 20px 4px 4px 20px;
 }
 .cars li.selected:hover {
-	background-color: green !important;
+	background-color: #878080 !important;
 	color: #006d2c;
 }
 .cars li:hover {
 	color: black;
 	background-color: #878080;
-	left: .1em;
+	left: .2em;
 }
 .cars .text {
 	position: relative;

@@ -40,18 +40,19 @@ h3 {
 	margin: 30px;
 	position: relative;
 	margin: auto;
+	padding-left: 10%;
 }
 .module {
-	padding: 20px;
+	padding: 10px;
 	text-align: center;
 	color: #eee;
-	max-height: 120px;
-	max-width: 120px;
+	max-height: 150px;
+	max-width: 180px;
 	background-color: #006d2c;
 	border-radius: 2px;
 }
 .module:hover {
-	background-color: #c2e699;
+	background-color: #999;
 	cursor: pointer;
 	color: #006d2c;
 }

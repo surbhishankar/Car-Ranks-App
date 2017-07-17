@@ -57,7 +57,7 @@ var CarsComponent = (function () {
 }());
 CarsComponent = __decorate([
     core_1.Component({
-        selector: 'my-carss',
+        selector: 'my-cars',
         templateUrl: './cars.component.html',
         styleUrls: ['./cars.component.css'],
         providers: [car_service_1.CarService]

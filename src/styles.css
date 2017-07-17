@@ -1,6 +1,6 @@
 /*Master Styles for the app*/
 html {
-	height: 100%;
+	height: 800px;
 }
 h1 {
   color: #369;
@@ -8,12 +8,13 @@ h1 {
   font-size: 250%;
 }
 h2, h3 {
-	color: white;
+	color: green;
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: lighter;
 }
 body {
 	margin: 0;
+	height: 100%;
 }
 html {
 	margin: 0;
