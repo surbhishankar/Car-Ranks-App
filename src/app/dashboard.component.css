@@ -43,10 +43,7 @@ h2 {
 	margin: 30px;
 	position: relative;
 	margin: auto;
-	padding-left: 5%;
-	padding-right: 5%;
-	padding-bottom: 3em;
-	padding-top: 3em;
+	padding: 3em 5% 3em 5%;
 }
 .module {
 	padding: 10px;
